@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.web-header{
+  background-color: dodgerblue;
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 1vmin);
+  color: white;
+}
+
+.web-header-left{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.web-header-right{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.web-logo{
+  min-width: 10%;
+  justify-content: center;
+  
+}
+
+.web-header-element{
+  width: 15%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.start-screen{
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table{
+  width: 80%;
+  border: 1px solid #f7f9fa;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+table thead{
+ background-color: #d3d5d6; 
+ border-collapse: collapse; 
+}
+
+table td,
+table th {
+  min-width: 14%;
+  min-height: 100vh;
+}
+
+table td {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #d3d5d6 ;
+  vertical-align: middle;
+}
+
+
+
+.web_footer{
+  background-color: #282c34;
+  width: 100%;
+  min-height: 10vh;
+}
